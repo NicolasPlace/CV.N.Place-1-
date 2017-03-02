@@ -1,0 +1,75 @@
+body{
+  background-color: #D4B98C;
+}
+
+
+/*--------------------*/
+#presentation{
+  margin-top:1%;
+  background-image: linear-gradient(to bottom , #084F66, #4F8A9E);
+  border : 3px solid white;
+}
+
+.img-circle{
+  border:4px solid black;
+  height:150px;
+  width:150px;
+  box-shadow: 1px 1px 4px white;
+}
+
+/*-------------------------*/
+
+.col-md-2{
+  text-align: center;
+
+  margin:2%;
+
+}
+
+.col-md-8{
+  text-align: center;
+  color:white;
+  font-weight: bold;
+
+}
+
+.col-md-5{
+  margin:1%;
+}
+
+
+.col-md-3, .col-md-9, .col-md-12{
+  border:1px solid black;
+}
+
+/*-----------------------------------*/
+h2, h3{
+text-align: center;}
+
+/*------------------------------------*/
+.langage{
+  display:flex;
+}
+
+.progress{
+  width:57%;
+  margin-left:42%;
+}
+
+#competences p{
+  float:left;
+}
+
+#competences{
+  background-image: linear-gradient(to bottom , #B3C4C3, #B4DBD9);
+}
+
+/*--------------------------------*/
+#formation{
+  background-color: #B3C4C3 ;
+}
+
+/*-------------------------------*/
+#interests{
+  background-color: #B3C4C3;
+}
