@@ -7,10 +7,8 @@ body {
 /*--------------------*/
 
 #presentation {
-    margin-top: 1%;
-    border: 3px solid white;
+    border-bottom: 3px solid white;
     background-image: linear-gradient(to bottom , #084F66, #4F8A9E);
-    border-radius: 7px;
 }
 
 .img-circle {
@@ -23,14 +21,13 @@ body {
     font-weight: bold;
 }
 
-/*-------------------------*/
 
 #photo {
     margin: 2%;
     text-align: center;
 }
 
-#description {
+#contenu_presentation{
     text-align: center;
     font-weight: bold;
     color: white;
@@ -38,7 +35,7 @@ body {
 
 /*----------------------*/
 
-#DevWeb {
+#description{
     margin-top: 1%;
     border: 3px solid white;
     color: white;
@@ -52,6 +49,7 @@ h2,
 h3 {
     text-align: center;
 }
+
 
 /*------------------------------------*/
 
@@ -70,9 +68,15 @@ h3 {
 
 #competences {
     margin-top: 1%;
-    background-image: linear-gradient(to bottom , #B3C4C3, #B4DBD9);
+    background-color:yellow;
     border: 3px solid white;
     border-radius: 7px;
+    padding:0;
+}
+
+#contenu_competences{
+  background-image: linear-gradient(to bottom , #B3C4C3, #B4DBD9);
+  padding:1%;
 
 }
 
@@ -80,15 +84,17 @@ h3 {
 
 #formation {
     margin-top: 1.5%;
-    padding-bottom: 8%;
     border: 3px solid white;
+    box-shadow: 3px 3px 5px #8BA5AD;
+    border-radius: 5px;
     text-align: center;
-    background-color: #B3C4C3;
-    border-radius: 7px;
+    background-color: yellow;
 }
 
-#diplome {
-    margin-top: 3%;
+#contenu_formation{
+
+      background-color: #B3C4C3;
+      padding:4%;
 }
 
 /*----------------------------------*/
@@ -98,24 +104,39 @@ h3 {
     padding-bottom: 1%;
     border: 3px solid white;
     text-align: center;
-    background-color: #B3C4C3;
+    background-color: yellow;
     border-radius: 7px;
+    padding:0;
+}
+
+#contenu_experience{
+  background-color: #B3C4C3;
+  padding:1%;
 }
 
 /*-------------------------------*/
 
-#interests {
-    margin-top: 3%;
-    padding-bottom: 1%;
+#hobbies {
+    margin-top: 4%;
     border: 3px solid white;
     text-align: center;
-    background-color: #B3C4C3;
+    background-color: yellow;
     border-radius: 7px;
-    padding-bottom:1%;
+
 }
 
-#hobbies {
-    margin-top: 3%;
+#contenu_hobbies{
+  background-color: #B3C4C3;
+  padding-bottom:2%;
 }
 
 /*-------------------------------------*/
+
+footer{
+background-image: linear-gradient(to bottom , #084F66, #4F8A9E);
+text-align: center;
+margin-top:5%;
+border-top:3px solid white;
+padding-bottom: 1%;
+padding-top: 1%;
+}
