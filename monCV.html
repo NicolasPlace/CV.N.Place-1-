@@ -1,238 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="bootstrap/css/bootstrap-social.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css"  href="monCV.css"  media="all">
-  <title>CV de Nicolas Place</title>
-</head>
-<body>
-
-  <!--partie presentation-->
-  <div class="container-fluid"  id="presentation">
-    <div class="row">
-
-      <div class="col-md-1"></div>
-        <div class="col-md-2" id="photo"><img src="images/moi.jpg" alt="Nicolas Place" class="img-responsive img-circle"></div>
-      <div class="col-md-8 " id="contenu_presentation">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-social.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"  href="css/monCV.css"  media="all">
+    <link rel="stylesheet" type="text/css" href="ma_feuille_css_imprimante.css" media="print" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <title>CV Nicolas Place</title>
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
-            <h1>Nicolas Place - Developpeur Web/Mobile</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-            <p>Adresse : 67 Bd du 11 novembre 1918 <br> 59540 Caudry</p>
-            <p>Né le 11 juillet 1992</p>
-          </div>
-          <div class="col-md-6">
-            <p>Me contacter :</p>
-            <p><span class='glyphicon glyphicon-earphone'> &nbsp;06 48 12 69 75</span></p>
-            <p><span id="mail">@</span>&nbsp;nicolasplace1107@gmail.com</p>
-          </div>
-        </div>
-        <div class="col-md-1">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!--moi-->
-  <div class="container"  id="description">
-    <div class="row">
-      <div class="col-md-12">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, officiis minus rem non nobis placeat sint, aspernatur, laborum ea cupiditate sunt laudantium, iure qui vel dignissimos ducimus natus adipisci. Voluptatem. </p>
-      </div>
-    </div>
-  </div>
-  <!--partie à gauche, competences -->
-  <div class="container">
-    <div class="row">
-      <div class="col-md-3" id="competences">
-        <h2>Mes compétences</h2>
-        <div  id="contenu_competences">
-        <h3>Informatique</h3>
-        <h4>Programmation</h4>
-
-        <p>Html</p>
-        <div class="progress">
-          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-            <span class="sr-only">70% Complete</span>
-          </div>
-        </div>
-
-        <p>CSS</p>
-        <div class="progress">
-          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-            <span class="sr-only">70% Complete</span>
-          </div>
-        </div>
-
-        <p>Javascript</p>
-        <div class="progress">
-          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">
-            <span class="sr-only">10% Complete</span>
-          </div>
-        </div>
-
-        <h4>Bureautique</h4>
-        <p>Tableur</p>
-        <div class="progress">
-          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
-            <span class="sr-only">85% Complete</span>
-          </div>
-        </div>
-
-        <p>Traitement texte</p>
-        <div class="progress">
-          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
-            <span class="sr-only">85% Complete</span>
-          </div>
-        </div>
-
-        <h3>Langues</h3>
-        <h4>Anglais</h4>
-        <p>Lu</p>
-        <div class="progress">
-          <div class="progress-bar " role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-            <span class="sr-only">70% Complete</span>
-          </div>
-        </div>
-
-        <p>Ecrit</p>
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-            <span class="sr-only">60% Complete</span>
-          </div>
-        </div>
-
-        <p>Parlé</p>
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
-            <span class="sr-only">50% Complete</span>
-          </div>
-        </div>
-
-        <h4>Espagnol</h4>
-        <p>Lu</p>
-        <div class="progress">
-          <div class="progress-bar " role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
-            <span class="sr-only">50% Complete</span>
-          </div>
-        </div>
-
-        <p>Ecrit</p>
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
-            <span class="sr-only">40% Complete</span>
-          </div>
-        </div>
-
-        <p>Parlé</p>
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
-            <span class="sr-only">20% Complete</span>
+            <ul  class="nav nav-pills nav-justified navbar-fixed-top">
+              <li id="link_presentation"><a href="#presentation" title="à propos de moi">PRESENTATION</a></li>
+              <li id="link_parcours"><a href="#parcours" title="mon parcours formation">PARCOURS</a></li>
+              <li id="link_competences"><a href="#competences" title="mes compétences en informatique et langues">COMPETENCES</a></li>
+              <li id="link_experiences"><a href="#experiences" title="mes expériences professionnelles et stage">EXPERIENCES</a></li>
+              <li id="link_loisirs"><a href="#loisirs" title="ce que j'aime">LOISIRS</a></li>
+            </ul>
           </div>
         </div>
       </div>
-</div>
-      <!--partie à  droite formations  -->
-      <div class="col-md-8 col-md-offset-1">
-        <div class="row">
-          <div class="col-md-12" id="formation">
-            <h2> Mes Formations </h2>
-            <div class="row" id="contenu_formation" >
-              <div class="col-md-4">
-                <p>2010</p>
-                <p>Bac Scientifique </p>
-                <p>Lycée Jacquard, Caudry</p>
+    </header>
+    <section   id="presentation">
+      <div class="container">
+        <div class="row  contenu_section" >
+          <div class="col-md-12 " id="title_presentation">
+            <h2 class="title_section">PRESENTATION</h2>
+          </div>
+          <div class="row" id="contenu_presentation">
+            <div class="col-md-3"  id="photo_and_name">
+              <p>Nicolas Place - 24 ans </p>
+              <div><img src="images/Nicolas.png" alt="Nicolas Place" class="img-responsive img-rounded"></div>
+              <p>Développeur Web/Mobile</p>
+            </div>
+            <div class="col-md-5">
+            </div>
+            <div class="col-md-4" id="contact">
+              <p> Adresse : </p>
+              <p><i class="fa fa-home" aria-hidden="true"></i> Bd du 11 novembre 1918,<br>
+                59540 Caudry
+              </p>
+              <hr>
+              </hr>
+              <p>Contact:</p>
+              <p><i class="fa fa-phone" aria-hidden="true"></i> tél : 06 48 12 69 75</p>
+              <p><i class="fa fa-envelope" aria-hidden="true"></i> mail : nicolasplace1107@gmail.com</p>
+              <hr>
+              </hr>
+              <p><i class="fa fa-car" aria-hidden="true"></i> Permis B</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section  id="parcours">
+      <div class="container">
+        <div class="row contenu_section" >
+          <div class="col-md-12" id="title_parcours">
+            <h2 class="title_section">PARCOURS</h2>
+          </div>
+          <div class="row" id="contenu_parcours">
+            <div class="col-md-4">
+              <p> 2017<br>
+                developpeur web/mobile<br>
+                Popschool, Anzin
+              </p>
+              <img src="images/popschool.png" alt="popschool" class="img-responsive img_popschool">
+            </div>
+            <div class="col-md-4"  id="parcours_middle_column">
+              <p>2010 - 2013<br>
+                Licence de mathématiques<br>
+                Université Mont-Houy, Valenciennes
+              </p>
+              <img src="images/ISTV-01.png" alt="ISTV" class="img-responsive img_istv">
+            </div>
+            <div class="col-md-4">
+              <p>2010<br>
+                Bac Scientifique<br>
+                Lycée Jacquard, Caudry
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="competences">
+      <div class="container">
+        <div class="row  contenu_section">
+          <div class="col-md-12" id="title_competences">
+            <h2 class="title_section">COMPETENCES</h2>
+          </div>
+          <div class="row" id="contenu_competences">
+            <div class="col-md-8">
+              <p id="title_informatique">INFORMATIQUE</p>
+              <div class="row">
+                <div class="col-md-6">
+                  <p>PROGRAMMATION</p>
+                  <div class="block_img">
+                    <div><img src="images/HTML.png" alt="HTML" class="img-responsive img_prog"></div>
+                    <div><img src="images/CSS.png" alt="CSS" class="img-responsive img_prog"></div>
+                    <div><img src="images/bootstrap.png" alt="Bootstrap" class="img-responsive img_prog"></div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <p id="title_divers">DIVERS</p>
+                  <div class="block_img" id="contenu_informatique_divers">
+                    <div><img src="images/excel.png" alt="excel" class="img-responsive img_divers"></div>
+                    <div><img src="images/word.png" alt="word" class="img-responsive img_divers"></div>
+                    <div><img src="images/openoffice.png" alt="openoffice" class="img-responsive img_divers"></div>
+                  </div>
+                </div>
               </div>
-              <div class="col-md-4">
-                <p>2010 - 2013</p>
-                <p>Licence de mathématiques</p>
-                <p> Université Mont-Houy, Valenciennes </p>
-              </div>
-              <div class="col-md-4">
-                <p> 2017</p>
-                <p>developpeur web/mobile</p>
-                <p>Popschool, Anzin</p>
+            </div>
+            <div class="col-md-4">
+              <p id="title_langues">LANGUES</p>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="block_img_lang">
+                    <div><img src="images/anglais.png" alt="anglais" class="img-responsive img_lang"></div>
+                    <div><img src="images/Spain.png" alt="spain" class="img-responsive img_lang"></div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <!-- partie experiences professionnelles -->
-        <div class="row">
-          <div class="col-md-12" id="experience">
-            <h2>Expériences professionnelles</h2>
-            <div id="contenu_experience">
-            <div class="row">
-              <div class="col-md-12">
-                <p>Entre janvier 2014 et septembre 2016 : Inventoriste en magasin (Interim) </p>
-              </div>
+      </div>
+    </section>
+    <section id="experiences">
+      <div class="container">
+        <div class="row  contenu_section">
+          <div class="col-md-12" id="title_experiences">
+            <h2 class="title_section">EXPERIENCES</h2>
+          </div>
+          <div class="row" id="contenu_experiences">
+            <div class="col-md-4">
+              <p>Janvier 2014 à septembre 2016 : Inventoriste en magasin (Interim)</p>
             </div>
-            <div class="row">
-              <div class="col-md-12">
-                <p>Entre juillet 2010 et novembre 2015 (vacances) : remplacements facteur à Caudry </p>
-              </div>
+            <div class="col-md-4" id="experiences_middle_column">
+              <img src="images/laposte.png" alt="laposte" class="img-responsive img_laposte">
+              <p>Juillet 2010 à novembre 2015 (vacances) : remplacements facteur à Caudry</p>
             </div>
-            <div class="row">
-              <div class="col-md-12">
-               <p class="row"> Février 2013 à avril 2013 : Stage d'enseignement en école primaire  à Valenciennes</p>
-
-              </div>
+            <div class="col-md-4">
+              <p>Février 2013 à avril 2013 :<br> Stage d'enseignement en école primaire  à Valenciennes</p>
             </div>
-</div>
           </div>
         </div>
-        <!-- partie  centres d'interets -->
-        <div class="row" id="hobbies">
-          <div class="col-md-12" >
-            <h2>Centres d'intérêts </h2>
-            <div class="row" id="contenu_hobbies">
-            <div class="col-md-3">
-              <p>Developpement Web</p>
-              <img src="images/web.png" alt="web" class="img-rounded">
+      </div>
+    </section>
+    <section id="loisirs">
+      <div class="container">
+        <div class="row  contenu_section">
+          <div class="col-md-12" id="title_loisirs">
+            <h2 class="title_section">LOISIRS</h2>
+          </div>
+          <div class="row" id="contenu_loisirs">
+            <div class="col-md-4 ">
+              <p>Web</p>
+              <i class="fa fa-laptop" aria-hidden="true" style="font-size : 80px"></i>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
               <p>Sport</p>
-              <img src="images/sport.png" alt="sport" class="img-rounded">
+              <i class="fa fa-soccer-ball-o" aria-hidden="true" style="font-size : 80px"></i>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
               <p>Musique</p>
-              <img src="images/musique.png" alt="musique" class="img-rounded">
-            </div>
-            <div class="col-md-3">
-              <p>Animaux</p>
-              <img src="images/chien.jpeg" alt="chien" class="img-rounded">
+              <i class="fa fa-music" aria-hidden="true" style="font-size : 80px"></i>
             </div>
           </div>
         </div>
       </div>
+    </section>
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <a href="https://fr-fr.facebook.com/" target="_blank" title='facebook'><i class="fa fa-facebook-square icone" aria-hidden="true" style="font-size : 50px"></i></a>
+            <a href="https://twitter.com/?lang=fr" target="_blank" title='twitter'><i class="fa fa-twitter icone" aria-hidden="true" style="font-size : 50px"></i></a>
+            <a href="https://github.com/NicolasPlace" target="_blank"  title='github'><i class="fa fa-github icone" aria-hidden="true" style="font-size : 50px"></i></a>
+          </div>
+          <div class="col-md-6">
+            <a href="javascript:window.print()"><i class="fa fa-print icone" aria-hidden="true" style="font-size : 50px"></i></a>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-
-<footer>
-<div class="container">
-  <div class="row">
-    <div class="col-md-4">
-  <a href="https://fr-fr.facebook.com/" target="_blank" title='facebook'><img src="images/facebook.png" alt="facebook"></a>
-    </div>
-    <div class="col-md-4">
-<a href="https://twitter.com/?lang=fr" target="_blank" title='twitter'><img src="images/twitter.png" alt="twitter"></a>
-    </div>
-    <div class="col-md-4">
-<a href="https://github.com/NicolasPlace" target="_blank"  title='github'><img src="images/github.png" alt="github"></a>
-    </div>
-  </div>
-</div>
-</footer>
-
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="bootstrap/js/bootstrap.min.js"></script>
-</body>
+    </footer>
+  </body>
 </html>
