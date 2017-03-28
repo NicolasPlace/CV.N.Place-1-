@@ -56,7 +56,6 @@ table {
 }
 
 /*-------contenu general----------------*/
-
 section {
     margin-bottom: 5em;
 }
@@ -71,28 +70,31 @@ p {
 }
 
 h2 {
-    font-family: Times,sans-serif;
-    font-size: 18px;
-    font-weight: normal;
-}
-
-.title_section {
     padding-top: 1.2em;
     padding-bottom: 1.2em;
+    font-family: Times,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.contenu_section {
+.content_section {
+    border-radius: 0 0 1em 1em;
     background-color: #BFBFBF;
     box-shadow: 4px 4px 3px #7A7A7A;
+}
+
+.time {
+    padding: 0.3em;
+    border-radius: 1em;
+    font-weight: bold;
+    background-color: #F0CA8D;
 }
 
 /*--------barre de menu----------------*/
 
 li {
-    height: 50px;
-    border-radius: 0.7em;
     font-size: 16px;
-    line-height: 50px;
+    line-height: 25px;
 }
 
 li a {
@@ -100,19 +102,17 @@ li a {
 }
 
 .nav {
-    padding-top: 0.3em;
+    padding-top: 0.35em;
     padding-bottom: 0.35em;
     background-color: #4F4F4F;
 }
 
 .nav li a:hover {
-    border-radius: 0.7em;
     color: white;
     background-color: #55B2CF;
 }
 
 .nav li a:active {
-    border-radius: 0.7em;
     color: white;
     background-color: #1219E3;
 }
@@ -121,11 +121,11 @@ li a {
     background-color: #79C965;
 }
 
-#link_parcours {
+#link_career {
     background-color: #EDC566;
 }
 
-#link_competences {
+#link_skills {
     background-color: #79C965;
 }
 
@@ -133,24 +133,21 @@ li a {
     background-color: #EDC566;
 }
 
-#link_loisirs {
+#link_hobbies {
     background-color: #79C965;
 }
 
 /*----------------presentation--------------*/
 
-/*.col-md-3,
-.col-md-4,
-.col-md-5,
-.col-md-6,
-.col-md-12
-{
-  border:1px solid black;
-}*/
+#content_prensentation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 #presentation {
-    margin-top: -100px;
-    padding-top: 100px;
+    margin-top: -90px;
+    padding-top: 90px;
 }
 
 #title_presentation {
@@ -167,7 +164,9 @@ li a {
 }
 
 #photo_and_name p {
+    padding: 0.8em;
     text-align: center;
+    line-height: 25px;
 }
 
 .img-rounded {
@@ -177,14 +176,24 @@ li a {
     box-shadow: 4px 4px 3px #7A7A7A;
 }
 
+.titlename {
+    font-size: 20px;
+}
+
+#text_presentation {
+    margin-top: 50px;
+    padding: 0;
+    border-radius: 2em;
+    background-color: #A8DE92;
+}
+
+#text_presentation p {
+    text-align: justify;
+}
+
 .glyphicon {
     float: left;
     clear: both;
-}
-
-#photo_and_name p {
-    padding: 0.8em;
-    line-height: 25px;
 }
 
 #contact p {
@@ -193,19 +202,26 @@ li a {
     line-height: 25px;
 }
 
-/*-----------------------parcours---------------------------*/
-
-#parcours {
-    margin-top: -180px;
-    padding-top: 180px;
+.info_contact {
+    padding: 0.3em;
+    border-radius: 1em;
+    font-weight: bold;
+    background-color: #A8DE92;
 }
 
-#title_parcours {
+/*-----------------------parcours---------------------------*/
+
+#career {
+    margin-top: -170px;
+    padding-top: 170px;
+}
+
+#title_career {
     background-color: #EDC566;
 }
 
-#contenu_parcours p {
-    line-height: 1.5em;
+#content_career p {
+    line-height: 2em;
 }
 
 .img_popschool {
@@ -220,7 +236,7 @@ li a {
     margin: auto;
 }
 
-#parcours_middle_column {
+#career_middle_column {
     padding-bottom: 2.25em;
     border-right: 1px solid white;
     border-left: 1px solid white;
@@ -228,16 +244,16 @@ li a {
 
 /*----------------------competences----------------------------*/
 
-#competences {
+#skills {
     margin-top: -95px;
     padding-top: 95px;
 }
 
-#title_competences {
+#title_skills {
     background-color: #79C965;
 }
 
-.block_img {
+.block_img_info {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -252,23 +268,34 @@ li a {
 }
 
 .img_prog,
-.img_divers,
+.img_divers {
+    width: 130px;
+    height: 130px;
+}
+
 .img_lang {
-    width: 140px;
-    height: 140px;
+    width: 130px;
+    height: 130px;
 }
 
 #title_informatique {
-    background-color: #CDA1D1;
+    color: white;
+    background-color: #206321;
 }
 
-#title_langues {
-    background-color: #A1C5D1;
+.section_informatique {
+    padding: 0.3em;
+    border-radius: 1em;
+    font-weight: bold;
+    background-color: #A8DE92;
 }
 
-#contenu_informatique_divers,
-#title_divers {
-    border-right: 1px solid white;
+#title_languages {
+    color: white;
+    background-color: #206321;
+}
+
+#section_languages {
     border-left: 1px solid white;
 }
 
@@ -283,8 +310,14 @@ li a {
     background-color: #EDC566;
 }
 
-#contenu_experiences {
+#content_experiences {
     line-height: 40px;
+}
+
+#experiences_middle_column {
+    padding: 0;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
 }
 
 .img_laposte {
@@ -293,18 +326,13 @@ li a {
     height: 89px;
 }
 
-#experiences_middle_column {
-    border-right: 1px solid white;
-    border-left: 1px solid white;
-}
-
 /*----------------------------loisirs------------------------------------*/
 
-#title_loisirs {
+#title_hobbies {
     background-color: #79C965;
 }
 
-#contenu_loisirs {
+#content_hobbies {
     text-align: center;
 }
 
@@ -315,6 +343,8 @@ li a {
 /*-------------------------------footer---------------------*/
 
 footer {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     text-align: center;
     color: white;
     background-color: #4F4F4F;
@@ -322,4 +352,89 @@ footer {
 
 .icone {
     color: white;
+}
+
+.icone:hover {
+    color: #62C3E3;
+}
+
+/*-----------mediaqueries-----------------------------*/
+
+@media screen and (max-width:767px) {
+    li {
+        font-size: 13px;
+    }
+
+    /*-----------presentation-------------*/
+
+    #presentation {
+        margin-top: -100px;
+        padding-top: 100px;
+    }
+
+    #contact p {
+        text-align: center;
+    }
+
+    /*----------parcours----------------*/
+
+    #career {
+        margin-top: -180px;
+        padding-top: 180px;
+    }
+
+    #career_middle_column {
+        padding-bottom: 2.25em;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+
+    /*----------competences--------------*/
+
+    #skills {
+        margin-top: -95px;
+        padding-top: 95px;
+    }
+
+    .img_prog,
+    .img_divers,
+    .img_lang {
+        width: 100px;
+        height: 100px;
+    }
+
+    .block_img_lang {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /*--------experiences----------*/
+
+    #experiences {
+        margin-top: -140px;
+        padding-top: 140px;
+    }
+
+    #experiences_middle_column {
+        padding: 0;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+    }
+
+    @media screen and (min-width:768px) and (max-width:991px) {
+    .img_prog,
+    .img_divers,
+    .img_lang {
+        width: 100px;
+        height: 100px;
+    }
+
+    .block_img_lang {
+        display: flex;
+    }
+
+    #career {
+        margin-top: -50px;
+        padding-top: 50px;
+    }
 }
