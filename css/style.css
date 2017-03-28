@@ -203,10 +203,8 @@ li a {
 }
 
 .info_contact {
-    padding: 0.3em;
-    border-radius: 1em;
     font-weight: bold;
-    background-color: #A8DE92;
+		text-decoration: underline;
 }
 
 /*-----------------------parcours---------------------------*/
@@ -365,6 +363,9 @@ footer {
         font-size: 13px;
     }
 
+    .section{
+		margin:auto;
+		}
     /*-----------presentation-------------*/
 
     #presentation {
