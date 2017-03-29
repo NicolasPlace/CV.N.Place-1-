@@ -138,13 +138,6 @@ li a {
 }
 
 /*----------------presentation--------------*/
-
-#content_prensentation {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
 #presentation {
     margin-top: -90px;
     padding-top: 90px;
@@ -177,7 +170,7 @@ li a {
 }
 
 .titlename {
-    font-size: 20px;
+    font-size: 17px;
 }
 
 #text_presentation {
@@ -276,7 +269,7 @@ li a {
     height: 130px;
 }
 
-#title_informatique {
+#title_informatique, #title_languages {
     color: white;
     background-color: #206321;
 }
@@ -288,13 +281,8 @@ li a {
     background-color: #A8DE92;
 }
 
-#title_languages {
-    color: white;
-    background-color: #206321;
-}
-
-#section_languages {
-    border-left: 1px solid white;
+#section_info {
+    border-right: 1px solid white;
 }
 
 /*---------------------experiences-----------------------------*/
@@ -359,14 +347,17 @@ footer {
 /*-----------mediaqueries-----------------------------*/
 
 @media screen and (max-width:767px) {
-		body{
-			margin:auto;
+		h2{
+			font-size:17px;
 		}
-		
     li {
-        font-size: 13px;
+        font-size: 12px;
+				line-height: 2px;
     }
 
+		.nav {
+		    padding:0;
+		}
     /*-----------presentation-------------*/
 		.titlename {
 		    font-size: 15px;
@@ -378,25 +369,25 @@ footer {
 		}
 
     #presentation {
-        margin-top: -100px;
-        padding-top: 100px;
+        margin-top: -300px;
+        padding-top:300px;
     }
 
 		#text_presentation p{
-			font-size : 10px;
-			width:50%;
+			font-size : 15px;
 		}
+
     #contact p {
         text-align: center;
+				font-size:15px;
+				line-height: 20px;
     }
-
-
 
     /*----------parcours----------------*/
 
     #career {
-        margin-top: -180px;
-        padding-top: 180px;
+        margin-top: -150px;
+        padding-top: 150px;
     }
 
     #career_middle_column {
@@ -405,11 +396,14 @@ footer {
         border-bottom: 1px solid white;
     }
 
+		#content_career p {
+		    font-size:15px;
+		}
     /*----------competences--------------*/
 
     #skills {
-        margin-top: -95px;
-        padding-top: 95px;
+        margin-top: -125px;
+        padding-top: 125px;
     }
 
     .img_prog,
@@ -424,8 +418,13 @@ footer {
         flex-direction: row;
     }
 
+		#title_informatique, #title_languages {
+		font-size:15px;
+		}
     /*--------experiences----------*/
-
+		#content_experiences p{
+		    font-size:15px;
+		}
     #experiences {
         margin-top: -140px;
         padding-top: 140px;
@@ -436,21 +435,3 @@ footer {
         border-top: 1px solid white;
         border-bottom: 1px solid white;
     }
-
-    @media screen and (min-width:768px) and (max-width:991px) {
-    .img_prog,
-    .img_divers,
-    .img_lang {
-        width: 100px;
-        height: 100px;
-    }
-
-    .block_img_lang {
-        display: flex;
-    }
-
-    #career {
-        margin-top: -50px;
-        padding-top: 50px;
-    }
-}
