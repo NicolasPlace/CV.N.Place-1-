@@ -363,6 +363,9 @@ footer {
         font-size: 13px;
     }
 
+		#text_presentation {
+		  width:40px;
+		}
 
     /*-----------presentation-------------*/
 		.titlename {
