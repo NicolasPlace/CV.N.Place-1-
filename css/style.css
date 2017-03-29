@@ -363,19 +363,31 @@ footer {
         font-size: 13px;
     }
 
-    section{
-		margin:auto;
-		}
+
     /*-----------presentation-------------*/
+		.titlename {
+		    font-size: 15px;
+		}
+
+		.img-rounded {
+		    height:174px;
+				width:100px;
+		}
 
     #presentation {
         margin-top: -100px;
         padding-top: 100px;
     }
 
+		#text_presentation p{
+			font-size : 10px;
+			width:50%;
+		}
     #contact p {
         text-align: center;
     }
+
+
 
     /*----------parcours----------------*/
 
