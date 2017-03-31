@@ -115,24 +115,15 @@ li a {
     background-color: #1219E3;
 }
 
-#link_presentation {
-    background-color: #79C965;
-}
-
-#link_career {
-    background-color: #EDC566;
-}
-
-#link_skills {
-    background-color: #79C965;
-}
-
-#link_experiences {
-    background-color: #EDC566;
-}
-
+#link_presentation,
+#link_skills,
 #link_hobbies {
     background-color: #79C965;
+}
+
+#link_career,
+#link_experiences {
+    background-color: #EDC566;
 }
 
 /*----------------presentation--------------*/
@@ -142,9 +133,9 @@ li a {
 }
 
 #presentation {
+    border-radius: 0 0 1em 1em;
     background-color: #79C965;
-		box-shadow: 4px 4px 3px #7A7A7A;
-		border-radius: 0 0 1em 1em;
+    box-shadow: 4px 4px 3px #7A7A7A;
 }
 
 #photo_and_name {
@@ -169,7 +160,7 @@ li a {
     box-shadow: 4px 4px 3px #7A7A7A;
 }
 
-.titlename {
+.name_and_title {
     font-size: 17px;
 }
 
@@ -196,8 +187,8 @@ li a {
 }
 
 .info_contact {
+    text-decoration: underline;
     font-weight: bold;
-		text-decoration: underline;
 }
 
 /*-----------------------parcours---------------------------*/
@@ -207,9 +198,9 @@ li a {
 }
 
 #career {
+    border-radius: 0 0 1em 1em;
     background-color: #EDC566;
-		box-shadow: 4px 4px 3px #7A7A7A;
-		border-radius: 0 0 1em 1em;
+    box-shadow: 4px 4px 3px #7A7A7A;
 }
 
 #content_career p {
@@ -233,16 +224,17 @@ li a {
     border-right: 1px solid white;
     border-left: 1px solid white;
 }
+
 /*----------------------competences----------------------------*/
 #section_my_skills {
-    margin-top: -95px;
-    padding-top: 95px;
+    margin-top: -75px;
+    padding-top: 75px;
 }
 
 #skills {
+    border-radius: 0 0 1em 1em;
     background-color: #79C965;
-		box-shadow: 4px 4px 3px #7A7A7A;
-		border-radius: 0 0 1em 1em;
+    box-shadow: 4px 4px 3px #7A7A7A;
 }
 
 .block_img_info {
@@ -255,7 +247,7 @@ li a {
     display: flex;
     flex-direction: column;
     align-items: center;
-		margin-top:15px;
+    margin-top: 15px;
 }
 
 .img_prog,
@@ -269,7 +261,8 @@ li a {
     height: 130px;
 }
 
-#title_informatique, #title_languages {
+#title_informatique,
+#title_languages {
     color: white;
     background-color: #206321;
 }
@@ -285,62 +278,65 @@ li a {
     border-right: 1px solid white;
 }
 
-.text_img_inf{
-	font-weight: bold;
-	font-size: 15px;
-	padding:0;
+.text_img_inf {
+    padding: 0;
+    font-size: 15px;
+    font-weight: bold;
 }
 
-.text_img_lang{
-	font-weight: bold;
-	font-size: 15px;
-	padding:0;
+.text_img_lang {
+    padding: 0;
+    font-size: 15px;
+    font-weight: bold;
 }
+
 /*---------------------experiences-----------------------------*/
 #section_my_experiences {
-    margin-top: -140px;
-    padding-top: 140px;
+    margin-top: -100px;
+    padding-top: 100px;
 }
 
 #experiences {
+    border-radius: 0 0 1em 1em;
     background-color: #EDC566;
-		box-shadow: 4px 4px 3px #7A7A7A;
-		border-radius: 0 0 1em 1em;
+    box-shadow: 4px 4px 3px #7A7A7A;
 }
 
 #content_experiences {
-  line-height: 30px
+    line-height: 30px;
 }
 
 #experiences_middle_column {
     padding: 0;
-		padding-bottom:128px;
+    padding-bottom: 100px;
     border-right: 1px solid white;
     border-left: 1px solid white;
+    line-height: 50px;
 }
 
-.img_maths{
-	width:82px;
-	height:82px;
-	margin:auto;
+.img_maths {
+    width: 82px;
+    height: 82px;
+    margin: auto;
 }
 
 .img_laposte {
     width: 119px;
     height: 89px;
-		margin:auto;
+    margin: auto;
 }
 
-.img_school{
-	width: 81px;
-	height: 99px;
-	margin:auto;
+.img_school {
+    width: 81px;
+    height: 99px;
+    margin: auto;
 }
+
 /*----------------------------loisirs------------------------------------*/
 #hobbies {
+    border-radius: 0 0 1em 1em;
     background-color: #79C965;
-		box-shadow: 4px 4px 3px #7A7A7A;
-		border-radius: 0 0 1em 1em;
+    box-shadow: 4px 4px 3px #7A7A7A;
 }
 
 #content_hobbies {
@@ -350,6 +346,7 @@ li a {
 .fa {
     padding-bottom: 0.1em;
 }
+
 /*-------------------------------footer---------------------*/
 footer {
     padding-top: 0.5em;
@@ -367,113 +364,138 @@ footer {
     color: #62C3E3;
 }
 
-/*-----------mediaqueries-----------------------------*/
-@media screen and (max-width:767px) {
-		h2{
-			font-size:17px;
-		}
-    li {
-        font-size: 12px;
-				line-height: 2px;
-    }
+					/*-----------mediaqueries-----------------------------*/
+					@media screen and (max-width:767px) {
+					h2 {
+					    font-size: 17px;
+					}
 
-		body {
-		    padding-top: 140px;
-			}
-    /*-----------presentation-------------*/
-		.titlename {
-		    font-size: 15px;
-		}
+					.nav {
+					    padding-top: 0.25em;
+					    padding-bottom: 0.1em;
+					}
 
-		.img-rounded {
-		    height:168px;
-				width:112px;
-		}
+					li {
+					    font-size: 12px;
+					    line-height: 1.5px;
+					}
 
-		#text_presentation {
-		    margin-top: 20px;
-		    padding: 0;
-		    border-radius:0;
-			}
+					body {
+					    padding-top: 140px;
+					}
 
-    #about_me {
-        margin-top: -300px;
-        padding-top:300px;
-    }
+					/*-----------presentation-------------*/
 
-		#text_presentation p{
-			font-size : 15px;
-		}
+					#section_about_me {
+					    margin-top: -150px;
+					    padding-top: 150px;
+					}
 
-    #contact p {
-        text-align: center;
-				font-size:15px;
-				line-height: 20px;
-    }
+					#photo_and_name {
+					    border-right: 0;
+					}
 
-    /*----------parcours----------------*/
-    #career {
-        margin-top: -150px;
-        padding-top: 150px;
-    }
+					.name_and_title {
+					    font-size: 15px;
+					}
 
-    #career_middle_column {
-        padding-bottom: 2.25em;
-        border-top: 1px solid white;
-        border-bottom: 1px solid white;
-    }
+					.img-rounded {
+					    width: 112px;
+					    height: 168px;
+					}
 
-		#content_career p {
-		    font-size:15px;
-		}
-    /*----------competences--------------*/
-    #skills {
-        margin-top: -150px;
-        padding-top: 150px;
-    }
+					#text_presentation {
+					    margin-top: 20px;
+					    padding: 0;
+					    border-radius: 0;
+					}
 
-    .img_prog,
-    .img_divers,
-    .img_lang {
-        width: 100px;
-        height: 100px;
-    }
+					#text_presentation p {
+					    font-size: 15px;
+					}
 
-		.img_lang{
-		margin-left: 20px;
-		}
+					#contact p {
+					    text-align: center;
+					    font-size: 15px;
+					    line-height: 20px;
+					}
 
-		.text_img_lang {
-		margin-left:10px;
-		margin-right:10px;
-		}
-    .block_img_lang {
-     display: flex;
-     flex-direction: row;
-		 justify-content: center;
-		 margin-top:5px;
-    }
+					/*----------parcours----------------*/
 
-		#title_informatique, #title_languages {
-		font-size:15px;
-		}
-    /*--------experiences----------*/
-		#content_experiences p{
-		    font-size:15px;
-		}
-    #experiences {
-        margin-top: -140px;
-        padding-top: 140px;
-    }
+					#section_my_career {
+					    margin-top: -140px;
+					    padding-top: 140px;
+					}
 
-    #experiences_middle_column {
-        padding: 0;
-        border-top: 1px solid white;
-        border-bottom: 1px solid white;
-			}
+					#career_middle_column {
+					    padding-bottom: 2.25em;
+					    border-top: 1px solid white;
+					    border-right: 0;
+					    border-bottom: 1px solid white;
+					    border-left: 0;
+					}
 
-			/*--------loisirs--------------*/
-			#hobbies{
-				margin-top: -200px;
-				padding-top: 200px;
-			}
+					#content_career p {
+					    font-size: 15px;
+					}
+
+					/*----------competences--------------*/
+
+					#section_my_skills {
+					    margin-top: -140px;
+					    padding-top: 140px;
+					}
+
+					.img_prog,
+					.img_divers,
+					.img_lang {
+					    width: 100px;
+					    height: 100px;
+					}
+
+					.img_lang {
+					    margin-left: 20px;
+					}
+
+					.text_img_lang {
+					    margin-right: 10px;
+					    margin-left: 10px;
+					}
+
+					.block_img_lang {
+					    display: flex;
+					    flex-direction: row;
+					    justify-content: center;
+					    margin-top: 5px;
+					}
+
+					#title_informatique,
+					#title_languages {
+					    font-size: 15px;
+					}
+
+					/*--------experiences----------*/
+
+					#section_my_experiences {
+					    margin-top: -140px;
+					    padding-top: 140px;
+					}
+
+					#content_experiences p {
+					    font-size: 15px;
+					}
+
+					#experiences_middle_column {
+					    padding: 0;
+					    border-top: 1px solid white;
+					    border-right: 0;
+					    border-bottom: 1px solid white;
+					    border-left: 0;
+					}
+
+					/*--------loisirs--------------*/
+
+					#section_my_hobbies {
+					    margin-top: -200px;
+					    padding-top: 200px;
+					}
