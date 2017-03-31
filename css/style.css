@@ -302,19 +302,32 @@ li a {
 }
 
 #content_experiences {
-    line-height: 40px;
+  line-height: 30px
 }
 
 #experiences_middle_column {
     padding: 0;
+		padding-bottom:115px;
     border-right: 1px solid white;
     border-left: 1px solid white;
 }
 
+.img_maths{
+	width:82px;
+	height:82px;
+	margin:auto;
+}
+
 .img_laposte {
-    float: right;
     width: 119px;
     height: 89px;
+		margin:auto;
+}
+
+.img_school{
+	width: 81px;
+	height: 99px;
+	margin:auto;
 }
 /*----------------------------loisirs------------------------------------*/
 #title_hobbies {
