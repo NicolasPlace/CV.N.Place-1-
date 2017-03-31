@@ -80,7 +80,6 @@ h2 {
 .content_section {
     border-radius: 0 0 1em 1em;
     background-color: #BFBFBF;
-    box-shadow: 4px 4px 3px #7A7A7A;
 }
 
 .time {
@@ -137,13 +136,15 @@ li a {
 }
 
 /*----------------presentation--------------*/
-#presentation {
+#section_about_me {
     margin-top: -90px;
     padding-top: 90px;
 }
 
-#title_presentation {
+#presentation {
     background-color: #79C965;
+		box-shadow: 4px 4px 3px #7A7A7A;
+		border-radius: 0 0 1em 1em;
 }
 
 #photo_and_name {
@@ -200,13 +201,15 @@ li a {
 }
 
 /*-----------------------parcours---------------------------*/
-#career {
+#section_my_career {
     margin-top: -170px;
     padding-top: 170px;
 }
 
-#title_career {
+#career {
     background-color: #EDC566;
+		box-shadow: 4px 4px 3px #7A7A7A;
+		border-radius: 0 0 1em 1em;
 }
 
 #content_career p {
@@ -231,13 +234,15 @@ li a {
     border-left: 1px solid white;
 }
 /*----------------------competences----------------------------*/
-#skills {
+#section_my_skills {
     margin-top: -95px;
     padding-top: 95px;
 }
 
-#title_skills {
+#skills {
     background-color: #79C965;
+		box-shadow: 4px 4px 3px #7A7A7A;
+		border-radius: 0 0 1em 1em;
 }
 
 .block_img_info {
@@ -292,13 +297,15 @@ li a {
 	padding:0;
 }
 /*---------------------experiences-----------------------------*/
-#experiences {
+#section_my_experiences {
     margin-top: -140px;
     padding-top: 140px;
 }
 
-#title_experiences {
+#experiences {
     background-color: #EDC566;
+		box-shadow: 4px 4px 3px #7A7A7A;
+		border-radius: 0 0 1em 1em;
 }
 
 #content_experiences {
@@ -307,7 +314,7 @@ li a {
 
 #experiences_middle_column {
     padding: 0;
-		padding-bottom:115px;
+		padding-bottom:128px;
     border-right: 1px solid white;
     border-left: 1px solid white;
 }
@@ -330,8 +337,10 @@ li a {
 	margin:auto;
 }
 /*----------------------------loisirs------------------------------------*/
-#title_hobbies {
+#hobbies {
     background-color: #79C965;
+		box-shadow: 4px 4px 3px #7A7A7A;
+		border-radius: 0 0 1em 1em;
 }
 
 #content_hobbies {
@@ -387,7 +396,7 @@ footer {
 		    border-radius:0;
 			}
 
-    #presentation {
+    #about_me {
         margin-top: -300px;
         padding-top:300px;
     }
