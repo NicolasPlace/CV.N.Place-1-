@@ -251,11 +251,7 @@ li a {
 }
 
 .img_prog,
-.img_divers {
-    width: 130px;
-    height: 130px;
-}
-
+.img_divers,
 .img_lang {
     width: 130px;
     height: 130px;
