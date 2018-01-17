@@ -207,11 +207,12 @@ li a {
     line-height: 2em;
 }
 
-.img_popschool {
+.img_popschool, .img_bjsolutions {
     width: 100px;
     height: 100px;
     margin: auto;
 }
+
 
 .img_istv {
     width: 174px;
@@ -351,7 +352,6 @@ footer {
     color: white;
     background-color: #4F4F4F;
 }
-
 .icone {
     color: white;
 }
